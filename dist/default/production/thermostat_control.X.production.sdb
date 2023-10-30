@@ -1,0 +1,199 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"42 C:\Users\lenor\MPLABXProjects\thermostat_control.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"89
+[v _configurePWM configurePWM `(v  1 e 1 0 ]
+"112
+[v _turn_off turn_off `(v  1 e 1 0 ]
+"119
+[v _update_speed update_speed `(v  1 e 1 0 ]
+"136
+[v _get_current_speed get_current_speed `(uc  1 e 1 0 ]
+[s S43 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2354 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4550.h
+[s S51 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S59 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S65 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S68 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S70 . 1 `S43 1 . 1 0 `S51 1 . 1 0 `S59 1 . 1 0 `S65 1 . 1 0 `S68 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES70  1 e 1 @3968 ]
+"2564
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S145 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"2606
+[s S154 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S161 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S168 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S172 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S175 . 1 `S145 1 . 1 0 `S154 1 . 1 0 `S161 1 . 1 0 `S168 1 . 1 0 `S172 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES175  1 e 1 @3970 ]
+"3428
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3848
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S218 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"6355
+[s S222 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S231 . 1 `S218 1 . 1 0 `S222 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES231  1 e 1 @4029 ]
+"6497
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"6582
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S104 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"7229
+[s S108 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[s S116 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S122 . 1 `S104 1 . 1 0 `S108 1 . 1 0 `S116 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES122  1 e 1 @4042 ]
+"7299
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"7409
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"28 C:\Users\lenor\MPLABXProjects\thermostat_control.X\main.c
+[v _IS_ON IS_ON `a  1 e 1 0 ]
+"29
+[v _IS_MMC IS_MMC `a  1 e 1 0 ]
+"30
+[v _SPEED_SELECTED SPEED_SELECTED `uc  1 e 1 0 ]
+"33
+[v _POWER_BF POWER_BF `a  1 e 1 0 ]
+"34
+[v _MMC_BF MMC_BF `a  1 e 1 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+{
+"54
+[v main@current_speed current_speed `uc  1 a 1 6 ]
+"87
+} 0
+"119
+[v _update_speed update_speed `(v  1 e 1 0 ]
+{
+[v update_speed@new_value new_value `uc  1 a 1 wreg ]
+[v update_speed@new_value new_value `uc  1 a 1 wreg ]
+[v update_speed@new_value new_value `uc  1 a 1 5 ]
+"134
+} 0
+"89
+[v _configurePWM configurePWM `(v  1 e 1 0 ]
+{
+[v configurePWM@pr2_value pr2_value `uc  1 a 1 wreg ]
+[v configurePWM@pr2_value pr2_value `uc  1 a 1 wreg ]
+[v configurePWM@ccpr1l_value ccpr1l_value `uc  1 p 1 0 ]
+[v configurePWM@prescale prescale `uc  1 p 1 1 ]
+"92
+[v configurePWM@pr2_value pr2_value `uc  1 a 1 2 ]
+"110
+} 0
+"112
+[v _turn_off turn_off `(v  1 e 1 0 ]
+{
+"117
+} 0
+"136
+[v _get_current_speed get_current_speed `(uc  1 e 1 0 ]
+{
+"142
+} 0
